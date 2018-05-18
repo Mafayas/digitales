@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun May 13 17:44:51 2018
+# Process ID: 5952
+# Current directory: C:/Users/mewf1/Desktop/UART_reference_files/lab7_ME_reference
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8792 C:\Users\mewf1\Desktop\UART_reference_files\lab7_ME_reference\lab7_master_SV.xpr
+# Log file: C:/Users/mewf1/Desktop/UART_reference_files/lab7_ME_reference/vivado.log
+# Journal file: C:/Users/mewf1/Desktop/UART_reference_files/lab7_ME_reference\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mewf1/Desktop/UART_reference_files/lab7_ME_reference/lab7_master_SV.xpr
+update_compile_order -fileset sources_1
+close_project
+create_project exp_7_1 C:/Users/mewf1/Desktop/UART_reference_files/lab7_ME_reference/exp_7_1 -part xc7a100tcsg324-1
+add_files -fileset constrs_1 -norecurse C:/Users/mewf1/Documents/Vivado/cosas/digilent-xdc-master/Nexys-4-DDR-Master.xdc
+import_files -fileset constrs_1 C:/Users/mewf1/Documents/Vivado/cosas/digilent-xdc-master/Nexys-4-DDR-Master.xdc
+file mkdir C:/Users/mewf1/Desktop/UART_reference_files/lab7_ME_reference/exp_7_1/exp_7_1.srcs/sources_1/new
+close [ open C:/Users/mewf1/Desktop/UART_reference_files/lab7_ME_reference/exp_7_1/exp_7_1.srcs/sources_1/new/UART_RX_CTRL.sv w ]
+add_files C:/Users/mewf1/Desktop/UART_reference_files/lab7_ME_reference/exp_7_1/exp_7_1.srcs/sources_1/new/UART_RX_CTRL.sv
+update_compile_order -fileset sources_1
