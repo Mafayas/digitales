@@ -1,0 +1,222 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Aug  7 18:02:00 2018
+| Host         : DESKTOP-IVCKHT4 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file lab_8_control_sets_placed.rpt
+| Design       : lab_8
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   154 |
+| Unused register locations in slices containing registers |   495 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             404 |          145 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             121 |           36 |
+| Yes          | No                    | No                     |              61 |           18 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             887 |          325 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------------+-------------------------------------------------------------+-------------------------------------------------------------+------------------+----------------+
+|     Clock Signal     |                        Enable Signal                        |                       Set/Reset Signal                      | Slice Load Count | Bel Load Count |
++----------------------+-------------------------------------------------------------+-------------------------------------------------------------+------------------+----------------+
+|  inst/inst/clk_out1  | nolabel_line53/p28/pixel_y_to_show[2]_i_2__5_n_0            | nolabel_line53/p28/pixel_y_to_show[2]_i_1__25_n_0           |                4 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/ce/pixel_y_to_show[2]_i_2_n_0                | nolabel_line53/ce/pixel_y_to_show[2]_i_1__21_n_0            |                2 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_04/push_menu_minimat_y[7]_i_2__34_n_0     | nolabel_line53/ch_04/push_menu_minimat_y[3]_i_1__1_n_0      |                2 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_17/ch_17/                                 | nolabel_line53/m_driver/push_menu_minimat_x_reg[0]_17       |                1 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_14/ch_14/                                 | nolabel_line53/m_driver/push_menu_minimat_x_reg[0]_16       |                1 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/m_driver/pixel_y_to_show_reg[2]_7            | nolabel_line53/m_driver/push_menu_minimat_y_reg[3]_3        |                2 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_39/push_menu_minimat_y[7]_i_2__14_n_0     | nolabel_line53/ch_39/push_menu_minimat_y[3]_i_1__38_n_0     |                2 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_14/push_menu_minimat_y[7]_i_2__22_n_0     | nolabel_line53/ch_14/push_menu_minimat_y[3]_i_1__12_n_0     |                2 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_12/push_menu_minimat_y[7]_i_2__32_n_0     | nolabel_line53/ch_12/push_menu_minimat_y[3]_i_1__2_n_0      |                2 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_01/push_menu_minimat_y[7]_i_2__20_n_0     | nolabel_line53/ch_01/push_menu_minimat_y[3]_i_1__8_n_0      |                2 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/m_driver/pixel_y_to_show_reg[2]_4            | nolabel_line53/m_driver/push_menu_minimat_y_reg[3]_2        |                3 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_13/push_menu_minimat_y[7]_i_2__19_n_0     | nolabel_line53/ch_13/push_menu_minimat_y[3]_i_1__6_n_0      |                1 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/p25/pixel_y_to_show[2]_i_1_n_0               |                                                             |                2 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_02/push_menu_minimat_y[7]_i_2__16_n_0     | nolabel_line53/ch_02/push_menu_minimat_y[3]_i_1__14_n_0     |                2 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_15/push_menu_minimat_y[7]_i_2__12_n_0     | nolabel_line53/ch_15/push_menu_minimat_y[3]_i_1__9_n_0      |                2 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_00/push_menu_minimat_y[7]_i_2__33_n_0     | nolabel_line53/ch_00/push_menu_minimat_y[3]_i_1__3_n_0      |                2 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_16/push_menu_minimat_y[7]_i_2__10_n_0     | nolabel_line53/ch_16/push_menu_minimat_y[3]_i_1__5_n_0      |                1 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_17/push_menu_minimat_y[7]_i_2__9_n_0      | nolabel_line53/ch_17/push_menu_minimat_y[3]_i_1__0_n_0      |                1 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/p34/pixel_y_to_show[2]_i_2__21_n_0           | nolabel_line53/p34/pixel_y_to_show[2]_i_1__28_n_0           |                2 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_18/push_menu_minimat_y[7]_i_2__18_n_0     | nolabel_line53/ch_18/push_menu_minimat_y[3]_i_1__4_n_0      |                2 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_07/push_menu_minimat_y[7]_i_2__21_n_0     | nolabel_line53/ch_07/push_menu_minimat_y[3]_i_1__10_n_0     |                2 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_19/ch_19/                                 | nolabel_line53/m_driver/push_menu_minimat_x_reg[0]_14       |                1 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_19/push_menu_minimat_y[7]_i_2__17_n_0     | nolabel_line53/ch_19/push_menu_minimat_y[3]_i_1_n_0         |                1 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/p37/pixel_y_to_show[2]_i_2__12_n_0           | nolabel_line53/p37/pixel_y_to_show[2]_i_1__31_n_0           |                2 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_03/push_menu_minimat_y[7]_i_2__13_n_0     | nolabel_line53/ch_03/push_menu_minimat_y[3]_i_1__11_n_0     |                1 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_06/push_menu_minimat_y[7]_i_2__15_n_0     | nolabel_line53/ch_06/push_menu_minimat_y[3]_i_1__13_n_0     |                2 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_05/push_menu_minimat_y[7]_i_2__11_n_0     | nolabel_line53/ch_05/push_menu_minimat_y[3]_i_1__7_n_0      |                2 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/m_driver/pixel_y_to_show_reg[2]_1            | nolabel_line53/m_driver/push_menu_minimat_y_reg[3]_0        |                2 |              4 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_10/push_menu_minimat_y[6]_i_1__12_n_0     |                                                             |                1 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/m_driver/pixel_y_to_show_reg[2]_2            | nolabel_line53/m_driver/push_menu_minimat_y_reg[0]_12       |                1 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/p33/pixel_x_to_show_reg[0]_0                 | nolabel_line53/m_driver/menu_character_position_x_reg[1]    |                2 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_16/ch_16/                                 | nolabel_line53/m_driver/push_menu_minimat_x_reg[7]_0        |                2 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_04/push_menu_minimat_y[7]_i_2__34_n_0     | nolabel_line53/ch_04/push_menu_minimat_y[7]_i_1_n_0         |                2 |              5 |
+|  inst/inst/clk_out1  |                                                             | nolabel_line53/m_driver/col_reg[7]                          |                2 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_10/ch_10/                                 | nolabel_line53/ch_10/push_menu_minimat_x[2]_i_1__2_n_0      |                1 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_15/push_menu_minimat_y[7]_i_2__12_n_0     | nolabel_line53/ch_15/push_menu_minimat_y[7]_i_1__7_n_0      |                2 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_12/push_menu_minimat_y[7]_i_2__32_n_0     | nolabel_line53/ch_12/push_menu_minimat_y[7]_i_1__2_n_0      |                2 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/p27/pixel_y_to_show[2]_i_2__20_n_0           | nolabel_line53/p27/pixel_y_to_show[2]_i_1__24_n_0           |                2 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_07/push_menu_minimat_y[7]_i_2__21_n_0     | nolabel_line53/ch_07/push_menu_minimat_y[7]_i_1_n_0         |                2 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_18/push_menu_minimat_y[7]_i_2__18_n_0     | nolabel_line53/ch_18/push_menu_minimat_y[7]_i_1_n_0         |                2 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/p26/pixel_y_to_show[2]_i_2__4_n_0            | nolabel_line53/p26/pixel_y_to_show[2]_i_1__23_n_0           |                4 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/m_driver/pixel_y_to_show_reg[2]_8            | nolabel_line53/m_driver/push_menu_minimat_y_reg[3]_4        |                3 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_11/push_menu_minimat_y[6]_i_1__10_n_0     |                                                             |                1 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_19/push_menu_minimat_y[7]_i_2__17_n_0     | nolabel_line53/ch_19/push_menu_minimat_y[7]_i_1_n_0         |                2 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/p31/pixel_y_to_show[2]_i_2__9_n_0            | nolabel_line53/p31/pixel_y_to_show[2]_i_1__2_n_0            |                2 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_07/ch_07/                                 | nolabel_line53/ch_07/push_menu_minimat_x[2]_i_1__38_n_0     |                2 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_20/push_menu_minimat_y[6]_i_1__9_n_0      |                                                             |                2 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/p35/pixel_y_to_show[2]_i_2__14_n_0           | nolabel_line53/p35/pixel_y_to_show[2]_i_1__33_n_0           |                3 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_06/push_menu_minimat_y[7]_i_2__15_n_0     | nolabel_line53/ch_06/push_menu_minimat_y[7]_i_1_n_0         |                2 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/p32/pixel_y_to_show[2]_i_2__11_n_0           | nolabel_line53/m_driver/push_menu_minimat_y_reg[0]_26       |                1 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/m_driver/push_menu_minimat_y_reg[0]_4        |                                                             |                2 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_13/push_menu_minimat_y[7]_i_2__19_n_0     | nolabel_line53/ch_13/push_menu_minimat_y[7]_i_1__5_n_0      |                2 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_14/push_menu_minimat_y[7]_i_2__22_n_0     | nolabel_line53/ch_14/push_menu_minimat_y[7]_i_1__11_n_0     |                2 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/p33/pixel_y_to_show[2]_i_2__10_n_0           | nolabel_line53/p33/pixel_y_to_show[2]_i_1__29_n_0           |                3 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/m_driver/pixel_y_to_show_reg[2]_0            | nolabel_line53/m_driver/push_menu_minimat_y_reg[3]          |                2 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_09/push_menu_minimat_y[6]_i_1__6_n_0      |                                                             |                2 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_05/push_menu_minimat_y[7]_i_2__11_n_0     | nolabel_line53/ch_05/push_menu_minimat_y[7]_i_1_n_0         |                2 |              5 |
+|  inst/inst/clk_out1  | nolabel_line53/p27/menu_character_position_x[5]_i_2__8_n_0  | nolabel_line53/m_driver/menu_character_position_x_reg[0]_25 |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/p28/menu_character_position_x[5]_i_2_n_0     | nolabel_line53/m_driver/pixel_x_to_show_reg[0]              |                3 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/p29/menu_character_position_x[5]_i_2__13_n_0 | nolabel_line53/m_driver/menu_character_position_x_reg[0]_31 |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/p30/menu_character_position_x[5]_i_2__0_n_0  | nolabel_line53/m_driver/menu_character_position_x_reg[0]_16 |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/p38/menu_character_position_x[5]_i_2__14_n_0 | nolabel_line53/m_driver/menu_character_position_x_reg[0]_33 |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_01/push_menu_minimat_y[7]_i_2__20_n_0     | nolabel_line53/ch_01/push_menu_minimat_y[7]_i_1__6_n_0      |                3 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_02/push_menu_minimat_y[7]_i_2__16_n_0     | nolabel_line53/ch_02/push_menu_minimat_y[7]_i_1__12_n_0     |                3 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_11/push_menu_minimat_y[6]_i_1__10_n_0     | nolabel_line53/m_driver/push_menu_minimat_y_reg[7]_0        |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/m_driver/pixel_y_to_show_reg[2]_2            | nolabel_line53/m_driver/push_menu_minimat_y_reg[3]_1        |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_16/ch_16/                                 | nolabel_line53/ch_16/push_menu_minimat_x[4]_i_1_n_0         |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_16/push_menu_minimat_y[7]_i_2__10_n_0     | nolabel_line53/ch_16/push_menu_minimat_y[7]_i_1__4_n_0      |                3 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_17/push_menu_minimat_y[7]_i_2__9_n_0      | nolabel_line53/ch_17/push_menu_minimat_y[7]_i_1__1_n_0      |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_20/push_menu_minimat_y[6]_i_1__9_n_0      | nolabel_line53/m_driver/push_menu_minimat_y_reg[7]_0        |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_03/push_menu_minimat_y[7]_i_2__13_n_0     | nolabel_line53/ch_03/push_menu_minimat_y[7]_i_1__8_n_0      |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/m_driver/pixel_y_to_show_reg[2]_0            | nolabel_line53/m_driver/push_menu_minimat_y_reg[0]_7        |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/m_driver/pixel_y_to_show_reg[2]_8            | nolabel_line53/m_driver/push_menu_minimat_y_reg[0]_22       |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/m_driver/push_menu_minimat_y_reg[0]_4        | nolabel_line53/m_driver/push_menu_minimat_y_reg[7]_0        |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_00/push_menu_minimat_y[7]_i_2__33_n_0     | nolabel_line53/ch_00/push_menu_minimat_y[7]_i_1__3_n_0      |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/p31/pixel_y_to_show[2]_i_2__9_n_0            | nolabel_line53/p31/push_menu_minimat_y[6]_i_1__11_n_0       |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/p31/menu_character_position_x[5]_i_2__15_n_0 | nolabel_line53/m_driver/menu_character_position_x_reg[0]_35 |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/p25/menu_character_position_x[5]_i_2__10_n_0 | nolabel_line53/m_driver/menu_character_position_x_reg[0]_27 |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/p34/menu_character_position_x[5]_i_2__7_n_0  | nolabel_line53/m_driver/menu_character_position_x_reg[0]_24 |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/p33/pixel_y_to_show[2]_i_2__10_n_0           | nolabel_line53/m_driver/push_menu_minimat_y_reg[0]_24       |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/p32/menu_character_position_x[5]_i_2__6_n_0  | nolabel_line53/m_driver/menu_character_position_x_reg[0]_23 |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/p32/pixel_y_to_show[2]_i_2__11_n_0           | nolabel_line53/p32/pixel_y_to_show[2]_i_1__30_n_0           |                4 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/p37/menu_character_position_x[5]_i_2__5_n_0  | nolabel_line53/m_driver/menu_character_position_x_reg[0]_22 |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_07/ch_07/                                 | nolabel_line53/m_driver/push_menu_minimat_x_reg[0]_15       |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_10/ch_10/                                 | nolabel_line53/m_driver/push_menu_minimat_x_reg[0]_13       |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_09/push_menu_minimat_y[6]_i_1__6_n_0      | nolabel_line53/m_driver/push_menu_minimat_y_reg[7]_0        |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_10/push_menu_minimat_y[6]_i_1__12_n_0     | nolabel_line53/m_driver/push_menu_minimat_y_reg[7]_0        |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/ce/menu_character_position_x[5]_i_2__12_n_0  | nolabel_line53/m_driver/menu_character_position_x_reg[0]_30 |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/exe/menu_character_position_x[5]_i_2__2_n_0  | nolabel_line53/m_driver/menu_character_position_x_reg[0]_18 |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/clr/menu_character_position_x[5]_i_2__11_n_0 | nolabel_line53/m_driver/menu_character_position_x_reg[0]_28 |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/p36/menu_character_position_x[5]_i_2__4_n_0  | nolabel_line53/m_driver/menu_character_position_x_reg[0]_21 |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/p35/menu_character_position_x[5]_i_2__3_n_0  | nolabel_line53/m_driver/menu_character_position_x_reg[0]_20 |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/p35/pixel_y_to_show[2]_i_2__14_n_0           | nolabel_line53/m_driver/push_menu_minimat_y_reg[0]_29       |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/p24/menu_character_position_x[5]_i_2__1_n_0  | nolabel_line53/m_driver/menu_character_position_x_reg[0]_17 |                1 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/p26/pixel_y_to_show[2]_i_2__4_n_0            | nolabel_line53/m_driver/push_menu_minimat_y_reg[0]_16       |                3 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/p26/menu_character_position_x[5]_i_2__9_n_0  | nolabel_line53/m_driver/menu_character_position_x_reg[0]_26 |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/p27/pixel_y_to_show[2]_i_2__20_n_0           | nolabel_line53/m_driver/push_menu_minimat_y_reg[0]_18       |                2 |              6 |
+|  inst/inst/clk_out1  | nolabel_line53/p28/pixel_y_to_show[2]_i_2__5_n_0            | nolabel_line53/m_driver/push_menu_minimat_y_reg[0]_20       |                2 |              7 |
+|  inst/inst/clk_out1  | nolabel_line53/m_driver/pixel_y_to_show_reg[2]_4            | nolabel_line53/m_driver/push_menu_minimat_y_reg[0]_14       |                2 |              7 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_14/ch_14/                                 | nolabel_line53/ch_14/push_menu_minimat_x[7]_i_1__37_n_0     |                2 |              7 |
+|  inst/inst/clk_out1  | nolabel_line53/p34/pixel_y_to_show[2]_i_2__21_n_0           | nolabel_line53/m_driver/push_menu_minimat_y_reg[0]_23       |                2 |              7 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_19/ch_19/                                 | nolabel_line53/ch_19/push_menu_minimat_x[6]_i_1__36_n_0     |                3 |              7 |
+|  inst/inst/clk_out1  | nolabel_line53/p25/pixel_y_to_show[2]_i_1_n_0               | nolabel_line53/m_driver/push_menu_minimat_y_reg[0]_15       |                3 |              7 |
+|  inst/inst/clk_out1  | nolabel_line53/p37/pixel_y_to_show[2]_i_2__12_n_0           | nolabel_line53/m_driver/push_menu_minimat_y_reg[0]_27       |                2 |              7 |
+|  inst/inst/clk_out1  | nolabel_line53/ce/pixel_y_to_show[2]_i_2_n_0                | nolabel_line53/m_driver/push_menu_minimat_y_reg[0]_13       |                2 |              7 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_17/ch_17/                                 | nolabel_line53/ch_17/push_menu_minimat_x[5]_i_1__37_n_0     |                3 |              7 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_39/push_menu_minimat_y[7]_i_2__14_n_0     | nolabel_line53/m_driver/push_menu_minimat_y_reg[7]_1        |                3 |              7 |
+|  inst/inst/clk_out1  | nolabel_line53/m_driver/pixel_y_to_show_reg[2]_7            | nolabel_line53/m_driver/push_menu_minimat_y_reg[0]_21       |                2 |              7 |
+|  inst/inst/clk_out1  | nolabel_line53/m_driver/pixel_y_to_show_reg[2]_1            | nolabel_line53/m_driver/push_menu_minimat_y_reg[0]_10       |                2 |              7 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_02/ch_02/                                 | nolabel_line53/ch_02/push_menu_minimat_x[7]_i_1__22_n_0     |                3 |              8 |
+|  inst/inst/clk_out1  | nolabel_line53/p26/push_menu_minimat_x[7]_i_1__4_n_0        | nolabel_line53/p26/menu_character_position_x[5]_i_2__9_n_0  |                3 |              8 |
+|  inst/inst/clk_out1  | nolabel_line53/ce/push_menu_minimat_x[6]_i_1_n_0            | nolabel_line53/ce/menu_character_position_x[5]_i_2__12_n_0  |                2 |              8 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_09/ch_09/                                 | nolabel_line53/ch_09/push_menu_minimat_x[7]_i_1__18_n_0     |                4 |              8 |
+|  inst/inst/clk_out1  | nolabel_line53/p36/push_menu_minimat_y[7]_i_2__8_n_0        | nolabel_line53/p36/push_menu_minimat_y[7]_i_1__9_n_0        |                3 |              8 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_20/ch_20/                                 | nolabel_line53/ch_20/push_menu_minimat_x[7]_i_1__17_n_0     |                3 |              9 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_08/ch_08/                                 | nolabel_line53/ch_08/push_menu_minimat_x[7]_i_1__14_n_0     |                3 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/p32/push_menu_minimat_x[7]_i_1__9_n_0        | nolabel_line53/p32/menu_character_position_x[5]_i_2__6_n_0  |                4 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_01/ch_01/                                 | nolabel_line53/ch_01/push_menu_minimat_x[7]_i_1__33_n_0     |                3 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/p31/push_menu_minimat_x[7]_i_1__28_n_0       | nolabel_line53/p31/menu_character_position_x[5]_i_2__15_n_0 |                3 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/p33/push_menu_minimat_x[7]_i_1__29_n_0       | nolabel_line53/p33/pixel_x_to_show_reg[0]_0                 |                4 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_13/ch_13/                                 | nolabel_line53/ch_13/push_menu_minimat_x[7]_i_1__32_n_0     |                3 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/exe/push_menu_minimat_x[7]_i_1__0_n_0        | nolabel_line53/exe/menu_character_position_x[5]_i_2__2_n_0  |                3 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_00/ch_00/                                 | nolabel_line53/ch_00/push_menu_minimat_x[7]_i_1__16_n_0     |                3 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/clr/push_menu_minimat_x[7]_i_1__1_n_0        | nolabel_line53/clr/menu_character_position_x[5]_i_2__11_n_0 |                4 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/p37/push_menu_minimat_x[7]_i_1__10_n_0       | nolabel_line53/p37/menu_character_position_x[5]_i_2__5_n_0  |                3 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/p36/push_menu_minimat_x[7]_i_1__11_n_0       | nolabel_line53/p36/menu_character_position_x[5]_i_2__4_n_0  |                4 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_39/ch_39/                                 | nolabel_line53/ch_39/push_menu_minimat_x[7]_i_1__21_n_0     |                3 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_04/ch_04/                                 | nolabel_line53/ch_04/push_menu_minimat_x[7]_i_1__15_n_0     |                3 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_12/ch_12/                                 | nolabel_line53/ch_12/push_menu_minimat_x[7]_i_1__13_n_0     |                3 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/p35/push_menu_minimat_x[7]_i_1__12_n_0       | nolabel_line53/p35/menu_character_position_x[5]_i_2__3_n_0  |                4 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/p24/push_menu_minimat_x[7]_i_1__2_n_0        | nolabel_line53/p24/menu_character_position_x[5]_i_2__1_n_0  |                3 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_11/ch_11/                                 | nolabel_line53/ch_11/push_menu_minimat_x[7]_i_1__20_n_0     |                3 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_18/ch_18/                                 | nolabel_line53/ch_18/push_menu_minimat_x[7]_i_1__31_n_0     |                3 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/p25/push_menu_minimat_x[7]_i_1__3_n_0        | nolabel_line53/p25/menu_character_position_x[5]_i_2__10_n_0 |                3 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/p34/push_menu_minimat_x[7]_i_1__8_n_0        | nolabel_line53/p34/menu_character_position_x[5]_i_2__7_n_0  |                4 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_03/ch_03/                                 | nolabel_line53/ch_03/push_menu_minimat_x[7]_i_1__36_n_0     |                3 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/p27/push_menu_minimat_x[7]_i_1__5_n_0        | nolabel_line53/p27/menu_character_position_x[5]_i_2__8_n_0  |                3 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_15/ch_15/                                 | nolabel_line53/ch_15/push_menu_minimat_x[7]_i_1__34_n_0     |                3 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_05/ch_05/                                 | nolabel_line53/ch_05/push_menu_minimat_x[7]_i_1__19_n_0     |                3 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/p29/push_menu_minimat_x[7]_i_1__26_n_0       | nolabel_line53/p29/menu_character_position_x[5]_i_2__13_n_0 |                4 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/p30/push_menu_minimat_x[7]_i_1__7_n_0        | nolabel_line53/p30/menu_character_position_x[5]_i_2__0_n_0  |                3 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/ch_06/ch_06/                                 | nolabel_line53/ch_06/push_menu_minimat_x[7]_i_1__23_n_0     |                3 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/p38/push_menu_minimat_x[7]_i_1__27_n_0       | nolabel_line53/p38/menu_character_position_x[5]_i_2__14_n_0 |                4 |             10 |
+|  inst/inst/clk_out1  | nolabel_line53/p28/push_menu_minimat_x[7]_i_1__6_n_0        | nolabel_line53/m_driver/pixel_x_to_show_reg[0]              |                4 |             11 |
+|  inst/inst/clk_out1  | CL/reta                                                     |                                                             |                4 |             16 |
+|  inst/inst/clk_out1  |                                                             | nolabel_line74/SR[0]                                        |                5 |             16 |
+|  nolabel_line74/E[0] |                                                             |                                                             |                6 |             16 |
+|  inst/inst/clk_out1  | CL/Q_reg[0]                                                 |                                                             |                4 |             16 |
+|  inst/inst/clk_out1  |                                                             | BD/PB_cnt[19]_i_1_n_0                                       |                6 |             20 |
+|  inst/inst/clk_out1  |                                                             | BC/PB_cnt[19]_i_1_n_0                                       |                5 |             20 |
+|  inst/inst/clk_out1  |                                                             | BU/PB_cnt[19]_i_1_n_0                                       |                6 |             20 |
+|  inst/inst/clk_out1  |                                                             | BL/PB_cnt[19]_i_1_n_0                                       |                6 |             20 |
+|  inst/inst/clk_out1  |                                                             | BR/PB_cnt[19]_i_1_n_0                                       |                6 |             20 |
+|  inst/inst/clk_out1  |                                                             |                                                             |              139 |            388 |
++----------------------+-------------------------------------------------------------+-------------------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 4      |                    28 |
+| 5      |                    29 |
+| 6      |                    40 |
+| 7      |                    12 |
+| 8      |                     5 |
+| 9      |                     1 |
+| 10     |                    28 |
+| 11     |                     1 |
+| 16+    |                    10 |
++--------+-----------------------+
+
+
